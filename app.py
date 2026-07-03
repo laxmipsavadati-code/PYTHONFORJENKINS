@@ -7,7 +7,8 @@ def home():
     data = [
         {"name": "Laxmi", "age": 21},
         {"name": "Shivu", "age": 18},
-        {"name": "Ganga", "age": 38}
+        {"name": "Ganga", "age": 38},
+        {"name": "Siddu", "age": 11}
     ]
     return render_template("index.html", data=data)
 
